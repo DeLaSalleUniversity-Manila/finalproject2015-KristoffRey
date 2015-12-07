@@ -1,7 +1,9 @@
 # Final Project
 This is an application that uses an external library, OpenCV, in order to detect a face, detect the region of the eyes, and detect the pupil in the region of the eyes.
 
-##In Partial Fulfillment of the laboratory requirements
+*Note: This would require the user to install OpenCV Manager. Even if I placed the entire sdk/native/libs folder into my app/src/main/jniLibs folder, it would still request its user to download OpenCV Manager. Thus, I ommited the folder in jniLibs for faster uploading/downloading.
+
+##In Partial Fulfillment of the Requirements in LBYCP24
 Software Implementation of the App (to be published in Google Play)
 This will be updated when the link for the application is available
 
