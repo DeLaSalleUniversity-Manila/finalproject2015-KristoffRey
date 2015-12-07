@@ -25,5 +25,5 @@ The developer of this application would like to thank Roman Hošek for sharing t
 
 
 4. Eye Detection on Multiple Faces
-    This is very inaccurate since the training method works best when done on only one face
+This is very inaccurate since the training method works best when done on only one face
 ![alt tag](https://github.com/KristoffRey/EyeDetection/blob/master/Screenshot_2015-12-07-22-55-52.png)
