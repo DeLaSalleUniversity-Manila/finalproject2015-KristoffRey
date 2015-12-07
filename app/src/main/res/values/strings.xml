@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenCV: Eye Detection</string>
+    <string name="mF50">Size: 50%</string>
+    <string name="mF40">Size: 40%</string>
+    <string name="mF30">Size: 30%</string>
+    <string name="mF20">Size 20%</string>
+    <string name="imgDesc">Background Image</string>
+    <string name="header">Android\'s Face Recognition</string>
+    <string name="subhead">Based on Roman Hošek\'s Android Eye Detector</string>
+    <string name="buttonText">Retrain</string>
+    <string name="textView1">Default Mode</string>
+    <string name="helpHeader">How it Works</string>
+    <string name="errorTxt">Cannot read the .txt file!</string>
+    <string name="info">Info</string>
+    <string-array name="progresses">
+        <item>TM_SQDIFF</item>
+        <item>TM_SQDIFF_NORMED</item>
+        <item>TM_CCOEFF</item>
+        <item>TM_CCOEFF_NORMED</item>
+        <item>TM_CCORR</item>
+        <item>TM_CCORR_NORMED</item>
+    </string-array>
+
+</resources>

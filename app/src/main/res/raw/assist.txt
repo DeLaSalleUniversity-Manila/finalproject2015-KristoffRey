@@ -1,0 +1,24 @@
+This is a simple Eye detection application which is basically an improved version of face detection. It uses more classifiers than a normal face detection application because it will also take into consideration the eyes of the subject's face. These were all possible by using an external library, Opencv, in an android application.
+
+This application was based on the algorithms presented in Hošek's tutorial found in the link at the bottom of this page. The developer of this application modified the existing application by Hošek by doing the following:
+
+-Adding a splash activity, which would load before the main activity would run
+-Adding animations to the splash activity
+-Adding this help activity, which reads from a text file in the 'raw' folder
+-Modifying the source code by either removing unwanted codes, simplifying existing codes, and by adding the new codes required to perform the task above
+-Makes use of an actionbar since the developer does not have a functional back button
+-Using a more updated version of openCV. This has caused the framerate of the camera to greatly increase.
+
+
+**To use this application:
+First, it is recommended that the user is in a lit environment.
+Second, after the person's face may be detected, the user should press the retrain buttons to have more accurate results.
+Third, the user may opt to keep retraining on a face until he/she is satified with the results.
+
+Note that the zoomed matrices flicker, that is because the region of interest is constantly moving. It is alwo worth noting that after retraining, the previously trainged images will be forgotten.
+
+This application is also capable of detecting more than one face and more than one pair of eyes. But the results of retraining would be inaccurate.
+
+The link for the original tutorial of this application (without the extra features) are found below:
+
+http://romanhosek.cz/android-eye-detection-updated-for-opencv-2-4-6/

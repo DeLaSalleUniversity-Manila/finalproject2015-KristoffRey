@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FdActivity">
+
+    <item android:id="@+id/mFid50" android:title="@string/mF50" app:showAsAction="always"></item>
+    <item android:id="@+id/mFid40" android:title="@string/mF40" app:showAsAction="always"></item>
+    <item android:id="@+id/mFid30" android:title="@string/mF30" app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/mFid20" android:title="@string/mF20" app:showAsAction="ifRoom"></item>
+</menu>
